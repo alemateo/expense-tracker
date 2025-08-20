@@ -32,4 +32,8 @@ target 'mobileApp' do
       # :ccache_enabled => true
     )
   end
+
+  # AÑADE ESTA LÍNEA
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  
 end
